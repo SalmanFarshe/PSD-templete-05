@@ -126,7 +126,7 @@ header {
   width: 900px;
 }
 .hero_wrap {
-  background-image: url('/img/hero-bg.png');
+  background-image: url('../img/hero-bg.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100%;

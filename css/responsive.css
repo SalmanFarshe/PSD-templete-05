@@ -1,0 +1,355 @@
+/* wide screen */
+@media (min-width: 1501px) {
+	.dot{
+		display: none;
+	  }
+}
+/*Device = Desktops
+Screen = 1281px to higher resolution desktops*/
+@media (min-width: 1281px) and (max-width: 1500px) {
+	.dot{
+		display: none;
+	  }
+}
+/*Device = Laptops, Desktops
+Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.dot{
+		display: none;
+	  }
+	.hero_wrap {
+		background-image: none;
+		height: 100vh;
+		background-color: #2D4088;
+	}
+	.nom01 {
+		display: none;
+	}
+	.Hosting{
+		width: 665px;
+	}
+	.arr > .fa-arrow-right{
+		background-color: #13215f;
+	}
+}
+/*Device = Tablets, Ipads (portrait)
+Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	.nom01 {
+		display: none;
+	}
+	.hero_wrap {
+		background-image: none;
+		height: 100vh;
+		background-color: #0f1c4e;
+	}
+    .hero_left{
+        display: grid;
+        align-items: center;
+        height: 70vh;
+    }
+	header {
+		display: grid;
+		grid-template-columns: 100px 1fr 1fr;
+		align-items: center;
+		justify-items: center;
+		width: 100%;
+	}
+	.hero {
+		display: block;
+		width: 80% !important;
+		height: 100vh;
+	}
+	.Hosting,
+	.nom01 {
+		display: none;
+	}
+	.hero_left_head {
+		font-size: 60px;
+		margin: 0 auto;
+		padding-top: 50px;
+		width: 100%;
+	}
+	.hero_btn {
+		width: 120px;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+	.arr {
+		margin: 0 auto;
+		grid-gap: 30px;
+		margin-top: 50px;
+		margin-left: 20px;
+	}
+	.menu {
+		position: absolute;
+		top: 2%;
+		right: 2%;
+	}
+	#dot {
+		float: right;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		width: 40px;
+		height: 35px;
+		background-color: black;
+	}
+	.menu_ul {
+		visibility: hidden;
+		margin-top: 35px;
+	}
+	.menuLInk {
+		display: block;
+		padding-top: 10px !important;
+	}
+	.menu_active {
+		visibility: visible;
+	}
+	.dot-item {
+		background-color: #43eee4;
+		width: 30px;
+		margin: 5px;
+		height: 3px;
+		transition: 0.3s all ease;
+	}
+	.d-mone {
+		display: none;
+	}
+	.menu_active_dot > .dot-item-1 {
+		transform: rotate(45deg);
+		transition: 0.5s;
+		margin-top: 10px;
+	}
+	.menu_active_dot > .dot-item-3 {
+		transform: rotate(-50deg);
+		margin-top: -10px;
+	}
+	.menu_li {
+		float: none;
+	}
+	/* search */
+	.content_wrap {
+		width: 100%;
+	}
+	.domain_info_2 {
+		margin-top: 0px;
+	}
+	.domain_info > p {
+        padding: 10px;
+	}
+	.domain_search {
+		width: 80%;
+	}
+    .search_domain{
+        font-size: 28px;
+    }
+    /* quality */
+    .quality{
+        grid-template-columns: 1fr 1fr;
+    }
+    .quality_img{
+        margin: 0 auto;
+    }
+    .quality_box{
+        margin-bottom: 50px;
+    }
+    /* plans */
+    .plans{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .plans_box_wrap{
+		margin:  0 auto;
+		width: 230px;
+    }
+    .plans_img_info_button{
+        margin-bottom: 80px;
+    }
+    /* abouth */
+    .about_img>img{
+        width: 80%;
+    }
+    /* contact */
+    form > input, .textarea {
+        width: 80%;
+    }
+    /* footer */
+    footer{
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 50px;
+        width: 100%;
+    }
+    .copyright{
+        width: 90%;
+    }
+}
+/*Device = Low Resolution Tablets, Mobiles (Landscape)
+Screen = B/w 481px to 767px*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .hero_left{
+        padding: 10%;
+        height: 70vh;
+    }
+}
+/*Device = Most of the Smartphones Mobiles (Portrait)
+Screen = B/w 320px to 479px*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .hero_left{
+        padding: 10%;
+        height: 70vh;
+    }
+}
+/* small devices */
+@media (max-width: 767px) {
+	.hero_wrap {
+		background-image: none;
+		height: 100vh;
+		background-color: #0f1c4e;
+	}
+    .hero_left{
+        display: grid;
+        align-items: center;
+        height: 70vh;
+    }
+	header {
+		display: grid;
+		grid-template-columns: 100px 1fr 1fr;
+		align-items: center;
+		justify-items: center;
+		width: 100%;
+	}
+	.hero {
+		display: block;
+		width: 100% !important;
+		height: 100vh;
+	}
+	.Hosting,
+	.nom01 {
+		display: none;
+	}
+	.hero_left_head {
+		font-size: 50px;
+		text-align: center;
+		padding-top: 50px;
+		width: 100%;
+	}
+	.hero_btn {
+		width: 120px;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+	.arr {
+		margin: 0 auto;
+		grid-gap: 30px;
+		margin-top: 50px;
+		margin-left: 20px;
+	}
+	.menu {
+		position: absolute;
+		top: 2%;
+		right: 2%;
+	}
+	#dot {
+		float: right;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		width: 40px;
+		height: 35px;
+		background-color: black;
+	}
+	.menu_ul {
+		visibility: hidden;
+		margin-top: 35px;
+	}
+	.menuLInk {
+		display: block;
+		padding-top: 10px !important;
+	}
+	.menu_active {
+		visibility: visible;
+	}
+	.dot-item {
+		background-color: #43eee4;
+		width: 30px;
+		margin: 5px;
+		height: 3px;
+		transition: 0.3s all ease;
+	}
+	.d-mone {
+		display: none;
+	}
+	.menu_active_dot > .dot-item-1 {
+		transform: rotate(45deg);
+		transition: 0.5s;
+		margin-top: 10px;
+	}
+	.menu_active_dot > .dot-item-3 {
+		transform: rotate(-50deg);
+		margin-top: -10px;
+	}
+	.menu_li {
+		float: none;
+	}
+	/* search */
+	.content_wrap {
+		width: 100%;
+	}
+	.domain_info {
+		display: block;
+	}
+    .domain_packege{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+	.domain_info_2 {
+		margin-top: 0px;
+	}
+	.domain_info > p {
+        padding: 10px;
+	}
+	.domain_search {
+		width: 80%;
+	}
+    .search_domain{
+        font-size: 28px;
+    }
+    /* quality */
+    .quality{
+        grid-template-columns: 1fr;
+    }
+    .quality_img{
+        margin: 0 auto;
+    }
+    .quality_box{
+        margin-bottom: 50px;
+    }
+    /* plans */
+    .plans{
+        display: block;
+    }
+    .plans_box_wrap{
+        margin: 25px;
+		width: 280px;
+		margin: 0 auto;
+    }
+    .plans_img_info_button{
+        margin-bottom: 80px;
+    }
+    /* abouth */
+    .about_img>img{
+        width: 80%;
+    }
+    /* contact */
+    form > input, .textarea {
+        width: 80%;
+    }
+    /* footer */
+    footer{
+        display: block;
+        width: 100%;
+    }
+    .copyright{
+        width: 90%;
+    }
+}

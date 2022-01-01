@@ -126,7 +126,7 @@ header {
   width: 900px;
 }
 .hero_wrap {
-  background-image: url('/img/hero-bg.png');
+  background-image: url('../img/hero-bg.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100%;
@@ -311,7 +311,7 @@ footer{
   grid-template-columns: 20px 1fr;
   grid-template-rows: repeat(3, 1fr);
 }
-.footer_part_03{
+.footer_part_03_heading{
   padding-bottom: 15px;
 }
 .footer_menu_ul{
@@ -320,8 +320,14 @@ footer{
 .footer_menu_link{
   color: #ddd;
 }
-.footer_part_04{
+.footer_part_04_heading{
   padding-bottom: 15px;
+}
+.footer_part_01,
+.footer_part_02,
+.footer_part_03,
+.footer_part_04{
+  margin-bottom: 50px;
 }
 /* copyright */
 .copyright{
